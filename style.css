@@ -1,0 +1,92 @@
+* { 
+	padding: 0px; 
+	margin: 0px; 
+}
+
+body { 
+	font-family: Calibri; 
+}
+
+.main {
+	margin: 0px 150px 0px 150px;
+}
+
+.logo-elements {
+	margin: 5px 15px 0px 0px;
+	display: flex;
+}
+
+.logo {
+	width: 20px;
+	height: 40px;
+	clip-path: polygon(0 0, 100% 50%, 0 100%, 0 70%, 40% 50%, 0 30%);
+}
+
+.logo.red {
+	background-color: red;
+}
+
+.logo.black {
+	background-color: black;
+}
+
+.header { 
+	background-color: #E6E6E6; 
+}
+
+.header.main {
+	display: flex;
+}
+	
+
+.header-main-text { 
+	letter-spacing: 2px;
+	font-size: 45px; 
+}
+					   
+.header-sub-text { 
+	letter-spacing: 1.9px;
+	font-size: 18px;
+	display: block; 
+}
+
+.header-right-align { 
+	margin-left: auto;
+}
+
+.countries {
+	margin: 3px 0px 5px 350px;
+	display: flex;
+}
+
+.flag {
+	height: 10px; 
+	margin-left: 7px;
+}
+
+.header-login-form {
+	background-color: green; 
+}
+
+.facebook-icon {
+	height: 25px;
+}
+
+.login-fields {
+	display: flex;
+}
+
+.login-fields input, button, img {
+	margin: 5px;
+}
+
+.login-form-links {
+	font-size: 13px;
+	padding: 0px 0px 5px 5px;
+	letter-spacing: 0.3px;
+}
+
+.login-form-links  a, span {
+	text-decoration: none;
+	color: white;
+}
