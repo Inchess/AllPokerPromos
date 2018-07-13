@@ -1,0 +1,20 @@
+/*
+  COLORS:
+    Light grey: #E6E6E6
+    Dark blue: #1d3459
+    Light blue: #b0caf4
+ */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.main-part {
+    margin: 0px 150px 0px 150px;
+}
+

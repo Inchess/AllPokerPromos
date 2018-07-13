@@ -1,0 +1,31 @@
+.pageNav {
+    background-color: #1d3459;
+}
+
+.pageNav-elements span {
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+
+.pageNav-elements span:hover {
+    background-color: #b0caf4;
+    color: black;
+}
+
+.Promos:hover~.Promos-tab.hidden {
+    display: block;
+}
+
+.Pokerrooms:hover~.Pokerrooms.hidden{
+    display: block;
+}
+
+.hidden {
+    display: none;
+    background-color: #b0caf4;
+}
+
+.Promos-tab {
+    margin: 0px 0px 0px 0px;
+}

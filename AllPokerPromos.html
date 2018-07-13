@@ -3,49 +3,67 @@
 
 <head>
     <title>APP</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-	<meta charset="UTF-8">
+    <link rel="stylesheet" href="utils.css" type="text/css"/>
+    <link rel="stylesheet" href="header.css" type="text/css"/>
+    <link rel="stylesheet" href="navigation.css" type="text/css"/>
+    <meta charset="UTF-8">
 </head>
 
 <body>
 
 <div class="header">
-	<div class="header main">
-		<div class="logo-elements">
-			<div class="logo red"></div>
-			<div class="logo black"></div>
-		</div>
-		<div class="header-text">
-			<div class="header-main-text">AllPokerPromos</div>
-			<div class="header-sub-text">All poker promotions in one place!</div>
-		</div>
-		<div class="header-right-align">
-			<div class="countries">
-				<img class="britain flag" src="images/flags/great_britain_flag.png">
-				<img class="german flag" src="images/flags/german_flag.png">
-				<img class="polish flag" src="images/flags/polish_flag.png">
-			</div>
-			<div class="header-login-form">
-				<div class="login-fields">
-					<input type="text" name="Username" placeholder="Username">
-					<input type="text" name="Password" placeholder="Hasło">
-					<button class="login-button">Login</button>
-					<img class="facebook-icon" src="images/facebook_icon.png">
-				</div>
-				<div class="login-form-links">
-					<a href="https://wp.pl">Zarejestruj się za darmo</a>
-					<span>|</span>
-					<a href="https://wp.pl">Odzyskaj hasło</a>
-					<span>|</span>
-					<a href="https://wp.pl">Pomoc</a>
-					<span>|</span>
-					<a href="https://wp.pl">Zapamiętaj mnie</a>
-					<input type="Checkbox" name="remember_me" checked>
-				</div>
-			</div>
-		</div>
-		
-	</div>
+    <div class="header main-part">
+        <div class="logo-elements">
+            <div class="logo red"></div>
+            <div class="logo black"></div>
+        </div>
+        <div class="header-text">
+            <div class="header-main-text">AllPokerPromos</div>
+            <div class="header-sub-text">All poker promotions in one place!</div>
+        </div>
+        <div class="header-right-align">
+            <div class="countries">
+                <img class="britain flag" src="images/flags/great_britain_flag.png">
+                <img class="german flag" src="images/flags/german_flag.png">
+                <img class="polish flag" src="images/flags/polish_flag.png">
+            </div>
+            <div class="header-login-form">
+                <div class="login-fields">
+                    <input type="text" name="Username" placeholder="Username">
+                    <input type="text" name="Password" placeholder="Hasło">
+                    <button class="login-button">Login</button>
+                    <img class="facebook-icon" src="images/facebook_icon.png">
+                </div>
+                <div class="login-form-links">
+                    <a href="https://wp.pl">Zarejestruj się za darmo</a>
+                    <span>|</span>
+                    <a href="https://wp.pl">Odzyskaj hasło</a>
+                    <span>|</span>
+                    <a href="https://wp.pl">Pomoc</a>
+                    <span>|</span>
+                    <a href="https://wp.pl">Zapamiętaj mnie</a>
+                    <input type="Checkbox" name="remember_me" checked>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pageNav">
+    <div class="pageNav-elements main-part">
+        <span>Home</span>
+        <span class="Promos">Promotions</span>
+        <span class="Pokerrooms">Poker rooms</span>
+        <div class="Promos-tab hidden">
+            <span>Races</span>
+            <span>Freerolls</span>
+        </div>
+        <div class="Pokerrooms hidden">
+            <span>Poker888</span>
+            <span>FullTiltPoker</span>
+        </div>
+    </div>
+</div>
+
 </div>
 
 </body>
