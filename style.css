@@ -50,12 +50,13 @@ body {
 	display: block; 
 }
 
-.header-right-align { 
+.header-right-align {
 	margin-left: auto;
+	margin-bottom: 10px;
 }
 
 .countries {
-	margin: 3px 0px 5px 350px;
+	justify-content: flex-end;
 	display: flex;
 }
 
@@ -65,7 +66,7 @@ body {
 }
 
 .header-login-form {
-	background-color: green; 
+	background-color: #1d3459;
 }
 
 .facebook-icon {
@@ -80,8 +81,12 @@ body {
 	margin: 5px;
 }
 
+.login-fields input {
+	padding-left: 10px;
+}
+
 .login-form-links {
-	font-size: 13px;
+	font-size: 12px;
 	padding: 0px 0px 5px 5px;
 	letter-spacing: 0.3px;
 }
@@ -89,4 +94,11 @@ body {
 .login-form-links  a, span {
 	text-decoration: none;
 	color: white;
+}
+
+.login-button {
+	width: 70px;
+	background: linear-gradient(#3dc431, #2df71b);
+	border-radius: 6px;
+	font-size: 14px;
 }
