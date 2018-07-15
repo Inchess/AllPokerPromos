@@ -8,24 +8,46 @@
     padding: 0px 20px 0px 20px;
 }
 
+.Home {
+    margin-left: 150px;
+}
+
 .pageNav-elements span:hover {
     background-color: #b0caf4;
     color: black;
 }
 
-.Promos:hover~.Promos-tab.hidden {
+.Promos:hover~.subNav .Promos-tab.hidden {
     display: block;
 }
 
-.Pokerrooms:hover~.Pokerrooms.hidden{
+.Pokerrooms:hover~.subNav .Pokerrooms.hidden {
+    display: block;
+}
+
+.Promos-tab.hidden:hover {
+    display: block;
+}
+
+.Pokerrooms.hidden:hover {
     display: block;
 }
 
 .hidden {
     display: none;
     background-color: #b0caf4;
+    margin: 0px 150px 0px 150px;
+    padding: 5px 0px 5px 0px;
 }
 
-.Promos-tab {
-    margin: 0px 0px 0px 0px;
+.subNav {
+    background-color: #b0caf4;
+}
+
+.subNav span {
+    color: black;
+}
+
+.subNav span:hover {
+    color: red;
 }
