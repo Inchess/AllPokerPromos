@@ -1,0 +1,35 @@
+.leftItems>button {
+    background-color: #f96e5e;
+    border: none;
+}
+
+.hidden-dropdown {
+    display: none;
+}
+
+.hidden-dropdown:hover {
+    display: flex;
+}
+
+.leftItems:hover+.hidden-dropdown {
+    display: flex;
+}
+
+.leftMenu>.hidden-dropdown {
+    background-color: white;
+    flex-direction: column;
+    margin: 0px 40px 0px 40px;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.leftMenu>.hidden-dropdown>a {
+    text-decoration: none;
+    color: black;
+    padding: 2px 0px 2px 5px;
+    font-size: 12px;
+}
+
+.hidden-dropdown a:hover {
+    background-color: #1d3459;
+    color: white;
+}

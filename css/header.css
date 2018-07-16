@@ -78,7 +78,8 @@
 	letter-spacing: 0.3px;
 }
 
-.login-form-links  a, span {
+.login-form-links>a,
+.login-form-links>span {
 	text-decoration: none;
 	color: white;
 }
