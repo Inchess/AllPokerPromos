@@ -22,22 +22,36 @@
 
 .promo-search {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #1d3459;
 }
 
 .search-line {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
+    width: 100%;
+    margin-top: 12px;
 }
 
 .search-field {
     display: flex;
     flex-direction: column;
+    width: 130px;
 }
 
 .search-field>span {
     color: white;
     font-size: 10px;
+}
+
+.search-field>span,
+.search-field>input {
+    padding-left: 10px;
+}
+
+.hr {
+    height: 3px;
+    background-color: black;
+    margin: 15px 50px 0px 50px;
 }
