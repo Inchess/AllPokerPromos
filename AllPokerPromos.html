@@ -34,7 +34,7 @@
                 <div class="login-fields">
                     <input type="text" name="Username" placeholder="Username">
                     <input type="text" name="Password" placeholder="Hasło">
-                    <button class="login-button">Login</button>
+                    <button class="login button">Login</button>
                     <img class="facebook-icon" src="images/facebook_icon.png">
                 </div>
                 <div class="login-form-links">
@@ -120,9 +120,9 @@
     <div class="MainPart">
         <div class="FirstMain mainItem">
             <div class="firstMain firstItem">
-                <span>Znajdź dla siebie najlepsze promocje.</span>
+                <span class="first-element-header">Znajdź dla siebie najlepsze promocje.</span>
                 <br>
-                <span>120 pokerroomów do wyboru!</span>
+                <span class="first-element-header">120 pokerroomów do wyboru!</span>
                 <div class="promo-search">
                     <div class="network search-line">
                         <div class="network search-field">
@@ -135,20 +135,56 @@
                         </div>
                     </div>
                     <div class="hr"></div>
-                    <div class="network search-line">
+                    <div class="tournament search-line">
                         <div class="tournament search-field">
                             <span>Typ turnieju</span>
                             <input type="text" name="Network" placeholder="Wybierz turniej">
                         </div>
-                        <div class="prices search-field">
+                        <div class="prices-input search-field">
                             <span>Pula nagród (w $)</span>
                             <input type="text" name="Pokerroom" placeholder="Wybierz nagrody">
                         </div>
+                        <div class="prices-checkboxes search-field search-checkbox">
+                            <label><input type="checkbox" name="material-prices">Nagrody rzeczowe</label>
+                            <label><input type="checkbox" name="tournaments-tickets">Bilety turniejowe</label>
+                        </div>
+                    </div>
+                    <div class="blinds search-line">
+                        <div class="blinds search-field">
+                            <span>Zmiana blindów</span>
+                            <input type="text" name="blinds" placeholder="Zmiana blindów">
+                        </div>
+                        <div class="number-players search-field">
+                            <span>Ile osób (średnio)</span>
+                            <input type="text" name="number-players" placeholder="Liczba graczy">
+                        </div>
+                        <div class="number-prices search-field">
+                            <span>Ile nagród (średnio)</span>
+                            <input type="text" name="number-prices" placeholder="Liczba nagród">
+                        </div>
+                    </div>
+                    <div class="first-price search-line">
+                        <div class="first-price search-field">
+                            <span>Ile za pierwsze miejsce</span>
+                            <input type="text" name="first-price" placeholder="Pierwsza nagroda">
+                        </div>
+                        <div class="event-time search-field">
+                            <span>Czas trwania (średnio)</span>
+                            <input type="text" name="event-time" placeholder="Czas trwania">
+                        </div>
+                        <div class="rakeback search-field">
+                            <span>Jaki rakeback (w %)</span>
+                            <input type="text" name="rakeback" placeholder="Rakeback">
+                        </div>
+                    </div>
+                    <div class="search-button-line search-checkbox">
+                        <button class="search-element button">Wyszukaj</button>
+                        <label class="search-element"><input type="checkbox"> Zapamiętaj ustawienia</label>
                     </div>
                 </div>
             </div>
             <div class="firstMain secondItem">
-                <div>Najnowsze informacje</div>
+                <span class="first-element-header">Najnowsze informacje</span>
             </div>
         </div>
     </div>
