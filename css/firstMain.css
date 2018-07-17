@@ -1,0 +1,43 @@
+.FirstMain.mainItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstMain.firstItem>span {
+    padding-left: 50px;
+}
+
+.firstMain.secondItem>div {
+    padding-right: 250px;
+}
+
+.firstMain.secondItem {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.firstMain {
+    font-size: 25px;
+}
+
+.promo-search {
+    display: flex;
+    flex-direction: row;
+    background-color: #1d3459;
+}
+
+.search-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.search-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-field>span {
+    color: white;
+    font-size: 10px;
+}

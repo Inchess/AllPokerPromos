@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/navigation.css" type="text/css"/>
     <link rel="stylesheet" href="css/mainElements.css" type="text/css"/>
     <link rel="stylesheet" href="css/leftMenu.css" type="text/css"/>
+    <link rel="stylesheet" href="css/firstMain.css" type="text/css"/>
     <meta charset="UTF-8">
 </head>
 
@@ -72,12 +73,13 @@
         <div class="leftItems">
             <button>Speed Poker</button>
         </div>
-        <div class="hidden-dropdown">
-            <a href="#">PokerStart</a>
+        <ul class="hidden-dropdown">
+            <li> <a href="#">PokerStart</a></li>
+            // ul do diva, leftItems relative, hidden-dropdown absolute
             <a href="#">FullTiltPoker</a>
             <a href="#">Poker888</a>
             <a href="#">Betsafe</a>
-        </div>
+        </ul>
         <div class="leftItems">
             <button>Happy Hours</button>
         </div>
@@ -113,6 +115,29 @@
             <a href="#">BWin</a>
             <a href="#">Betsafe</a>
             <a href="#">Expect Poker</a>
+        </div>
+    </div>
+    <div class="MainPart">
+        <div class="FirstMain mainItem">
+            <div class="firstMain firstItem">
+                <span>Znajdź dla siebie najlepsze promocje.</span>
+                <span>120 pokerroomów do wyboru!</span>
+                <div class="promo-search">
+                    <div class="network search-line">
+                        <div class="network search-field">
+                            <span>Network</span>
+                            <input type="text" name="Network" placeholder="Network">
+                        </div>
+                        <div class="pokerroom search-field">
+                            <span>Pokerroom</span>
+                            <input type="text" name="Pokerroom" placeholder="Pokerroom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="firstMain secondItem">
+                <div>Najnowsze informacje</div>
+            </div>
         </div>
     </div>
 </div>
