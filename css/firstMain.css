@@ -20,7 +20,8 @@
     font-size: 25px;
 }
 
-.promo-search {
+.promo-search,
+.newsletter {
     display: flex;
     flex-direction: column;
     background-color: #1d3459;
@@ -35,7 +36,8 @@
     margin-top: 12px;
 }
 
-.search-field {
+.search-field,
+.newsletteer-email-field {
     display: flex;
     flex-direction: column;
     width: 130px;
@@ -87,4 +89,36 @@
 
 .search-button-line>label {
     margin-right: 55px;
+}
+
+.newsletter-text {
+    margin: 5px 20px 0px 15px;
+    color: white;
+    font-size: 12px;
+}
+
+.email-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.newsletter-email-section {
+    margin: 0px 20px 10px 150px;
+}
+
+.email-line>button {
+    margin-left: 30px;
+    width: 70px;
+    height: 20px;
+}
+
+.email-line>input {
+    width: 150px;
+    padding-left: 10px;
+}
+
+.newsletter-email-section>span {
+    color: white;
+    font-size: 10px;
+    padding-left: 10px;
 }
